@@ -1,0 +1,105 @@
+body{
+ background-color: #172637;
+ min-height: 100vh; 
+}
+a{
+color: white;
+text-decoration: none;
+}
+.divlogo{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-right: 60px;
+}
+.logoprincipal{
+    width: 200px;
+    height: 100px;
+}
+.navegador{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.subtitulo{
+    color: white;
+    margin-top: 60px;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.carro{
+    height: 25px;
+    width: 35px;
+}
+button{
+    font-weight: bold;
+    background-color: rgba(0, 0, 255, 0);
+}
+.link-carrito{
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    padding: 3px;
+    gap: 3px;
+}
+.ver-mas{
+    margin-top: 5px;
+}
+.link-ver-mas{
+    color: black;
+}
+article{
+    background-color: rgba(245, 245, 220, 0.226);
+    padding: 20px;
+    border: solid 2px lightblue;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 5px;
+}
+.sectionropahombres{
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.sectionaccesorios{
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.sectionelectronica{
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.imagenes{
+    height: 200px;
+    width: 200px;
+}
+.footer-logo{
+    height: 50px;
+    width: 100px;
+}
+.participantes{
+    color: white;
+}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
