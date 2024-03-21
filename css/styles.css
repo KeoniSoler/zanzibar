@@ -123,3 +123,12 @@ button{
     height: 400px;
     width: 350px;
 }
+.login{
+    background-color: rgba(245, 245, 220, 0.226);
+    padding: 20px;
+    border: solid 2px lightblue;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 5px;
+}
