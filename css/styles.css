@@ -132,3 +132,8 @@ button{
     flex-wrap: wrap;
     margin: 5px;
 }
+
+.recuperar{
+    color: white;
+    justify-content: center;
+}
