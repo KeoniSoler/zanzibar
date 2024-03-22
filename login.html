@@ -27,11 +27,18 @@
             <a href="register.html">REGISTRO</a>
         </nav>
     </header>
-    <article class="articleHome">
-        <p>Email:</p>
-        <p>Contraseña:</p>
-        <button class="login"><a href="./index.html"> Ingresar </button>
-    </article>
+    <h2 class="subtitulo">LOGIN:</h2>
+    <section class="login">
+    <form action="login.html" method="get" > 
+    <label for="email" class="colorLabel">Email: </label>
+    <input type="email" name="email" value="" class="inputEmail"> 
+    <label for="contraseña" class="colorLabel">Contraseña: </label>
+    <input type="password" name="contraseña" value="" class="inputContra">
+    <button type="button" class="buttonIngresar"><a href="index.html">Ingresar</a></button>
+    <p><a href="register.html">No tengo cuenta</p>
+    <p><a href="recover.html">Recuperar contraseña</p>
+    </form>
+    </section>
     <!--Footer-->
     <footer class="footer">
         <div>

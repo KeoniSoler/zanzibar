@@ -123,6 +123,7 @@ button{
     height: 400px;
     width: 350px;
 }
+
 .login{
     background-color: rgba(245, 245, 220, 0.226);
     padding: 20px;
@@ -131,9 +132,41 @@ button{
     flex-direction: column;
     flex-wrap: wrap;
     margin: 5px;
+    margin-left: 300px;
+    margin-right: 300px;
 }
-
+.inputEmail{
+margin-right: 700px;
+}
+.inputContra{
+margin-right: 700px;
+}
+.colorLabel{
+    color: white;
+}
+.buttonIngresar{
+    margin-right: 400px;
+    margin-top: 15px;
+}
 .recuperar{
     color: white;
     justify-content: center;
+}
+.register{
+    background-color: rgba(245, 245, 220, 0.226);
+    padding: 20px;
+    border: solid 2px lightblue;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 5px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.buttonRegistrame{
+    margin-right: 400px;
+    margin-top: 15px;
+}
+.inputCheckbox{
+    margin-right: 700px;
 }
