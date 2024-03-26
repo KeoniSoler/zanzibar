@@ -13,30 +13,32 @@
 
 <body>
     <header>
+        <nav class="nav">
+            <a href="cart.html" class="separacion-cajas-arriba">CARRITO</a>
+            <a href="login.html" class="separacion-cajas-arriba">LOGIN</a>
+            <a href="register.html" class="separacion-cajas-arriba">REGISTRO</a>
+        </nav>
         <div class="divlogo">
             <a href="index.html"><img src="imagenes/zanzibarlogo.png" alt="zanzibar-logo" class="logoprincipal"></a>
         </div>
         <nav class="navegador">
             <a href="index.html">HOME</a>
-            <a href="">ELECTRONICA</a>
-            <a href="">ACCESORIOS</a>
-            <a href="">HOMBRE</a>
-            <a href="">MUJER</a>
-            <a href="cart.html">CARRITO</a>
-            <a href="login.html">LOGIN</a>
-            <a href="register.html">REGISTRO</a>
+            <a href="category.html">ELECTRONICA</a>
+            <a href="category.html">ACCESORIOS</a>
+            <a href="category.html">HOMBRE</a>
+            <a href="category.html">MUJER</a>
         </nav>
     </header>
     <h2 class="subtitulo">LOGIN:</h2>
-    <section class="login">
-    <form action="login.html" method="get" > 
+    <section>
+    <form action="login.html" method="get" class="login"> 
     <label for="email" class="colorLabel">Email: </label>
     <input type="email" name="email" value="" class="inputEmail"> 
     <label for="contraseña" class="colorLabel">Contraseña: </label>
     <input type="password" name="contraseña" value="" class="inputContra">
     <button type="button" class="buttonIngresar"><a href="index.html">Ingresar</a></button>
-    <p><a href="register.html">No tengo cuenta</p>
-    <p><a href="recover.html">Recuperar contraseña</p>
+    <p><a href="register.html">No tengo cuenta</a></p>
+    <p><a href="recover.html">Recuperar contraseña</a></p>
     </form>
     </section>
     <!--Footer-->

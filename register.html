@@ -13,32 +13,36 @@
 
 <body>
     <header>
+        <nav class="nav">
+            <a href="cart.html" class="separacion-cajas-arriba">CARRITO</a>
+            <a href="login.html" class="separacion-cajas-arriba">LOGIN</a>
+            <a href="register.html" class="separacion-cajas-arriba">REGISTRO</a>
+        </nav>
         <div class="divlogo">
             <a href="index.html"><img src="imagenes/zanzibarlogo.png" alt="zanzibar-logo" class="logoprincipal"></a>
         </div>
         <nav class="navegador">
             <a href="index.html">HOME</a>
-            <a href="">ELECTRONICA</a>
-            <a href="">ACCESORIOS</a>
-            <a href="">HOMBRE</a>
-            <a href="">MUJER</a>
-            <a href="cart.html">CARRITO</a>
-            <a href="login.html">LOGIN</a>
-            <a href="register.html">REGISTRO</a>
+            <a href="category.html">ELECTRONICA</a>
+            <a href="category.html">ACCESORIOS</a>
+            <a href="category.html">HOMBRE</a>
+            <a href="category.html">MUJER</a>
         </nav>
     </header>
    
     <h2 class="subtitulo">REGISTRATE:</h2>
-    <section class="register">
-    <form action="login.html" method="get" > 
+    <section>
+    <form action="register.html" method="get"  class="register"> 
     <label for="email" class="colorLabel">Email: </label>
     <input type="email" name="email" value="" class="inputEmail"> 
     <label for="contraseña" class="colorLabel">Contraseña: </label>
     <input type="password" name="contraseña" value="" class="inputContra">
+    <label for="contra" class="colorLabel">Repetir contraseña: </label>
+    <input type="password" name="contra" value="" class="inputContra">
     <button type="button" class="buttonRegistrame"><a href="index.html">Registrame</a></button>
     <label for="checkbox" class="colorLabel">Términos y condiciones</label>
-    <input type="checkbox" name="checkbox" value="" class="inputCheckbox">
-    <p><a href="register.html">Ya tengo contraseña</p>
+    <input type="checkbox" name="checkbox"  class="inputCheckbox">
+    <p><a href="register.html">Ya tengo una cuenta</a></p>
     
     </form>
     </section>
