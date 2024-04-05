@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image.jpg" href="imagenes/zanzibarlogo.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300..900&display=swap" rel="stylesheet">
@@ -13,28 +14,31 @@
 
 <body>
     <header>
+        <nav class="nav">
+            <a href="cart.html" class="separacion-cajas-arriba">CARRITO</a>
+            <a href="login.html" class="separacion-cajas-arriba">LOGIN</a>
+            <a href="register.html" class="separacion-cajas-arriba">REGISTRO</a>
+        </nav>
         <div class="divlogo">
             <a href="index.html"><img src="imagenes/zanzibarlogo.png" alt="zanzibar-logo" class="logoprincipal"></a>
         </div>
         <nav class="navegador">
-            <a href="index.html">HOME</a>
-            <a href="">ELECTRONICA</a>
-            <a href="">ACCESORIOS</a>
-            <a href="">HOMBRE</a>
-            <a href="">MUJER</a>
-            <a href="cart.html">CARRITO</a>
-            <a href="login.html">LOGIN</a>
-            <a href="register.html">REGISTRO</a>
-        </nav>
+            <nav class="navegador">
+                <a href="index.html">HOME</a>
+                <a href="category.html">ELECTRONICA</a>
+                <a href="category.html">ACCESORIOS</a>
+                <a href="category.html">HOMBRE</a>
+                <a href="category.html">MUJER</a>
+            </nav>
     </header>
     <h2 class="subtitulo"><a href="">DETALLE DEL PRODUCTO</a></h2>
     <section>
         <article class="artilceProductoP">
-            <h4>Nombre del producto (destacado).</h4>
+            <h4>Remera Stussy</h4>
             <img src="imagenes/stussy-shirt.png" alt="" class="imagendetalle">
-            <p>$$$</p>
-            <p>Categoria</p>
-            <p>Descripcion del producto</p>
+            <p>$50.000</p>
+            <p>Categoria: Ropa Hombre</p>
+            <p>Remera negra con detalle blanco</p>
             <button class="boton-carrito" type="button"><a href="./cart.html" class="linkcarrito">AGREGAR A CARRITO<img src="imagenes/carrito.png" alt="botoncarrito" class="carro"></a></button>
         </article>
     </section>

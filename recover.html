@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image.jpg" href="imagenes/zanzibarlogo.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300..900&display=swap" rel="stylesheet">
@@ -13,26 +14,34 @@
 
 <body>
     <header>
+        <nav class="nav">
+            <a href="cart.html" class="separacion-cajas-arriba">CARRITO</a>
+            <a href="login.html" class="separacion-cajas-arriba">LOGIN</a>
+            <a href="register.html" class="separacion-cajas-arriba">REGISTRO</a>
+        </nav>
         <div class="divlogo">
             <a href="index.html"><img src="imagenes/zanzibarlogo.png" alt="zanzibar-logo" class="logoprincipal"></a>
         </div>
         <nav class="navegador">
             <a href="index.html">HOME</a>
-            <a href="">ELECTRONICA</a>
-            <a href="">ACCESORIOS</a>
-            <a href="">HOMBRE</a>
-            <a href="">MUJER</a>
-            <a href="cart.html">CARRITO</a>
-            <a href="login.html">LOGIN</a>
-            <a href="register.html">REGISTRO</a>
+            <a href="category.html">ELECTRONICA</a>
+            <a href="category.html">ACCESORIOS</a>
+            <a href="category.html">HOMBRE</a>
+            <a href="category.html">MUJER</a>
         </nav>
     </header>
 
-    <article class="recuperar">
-        <p>Email:</p>
-        <button class="login"><a href="./index.html"> Recuperar </button>
-        <h1> Quiero recuperar mi contraseña </h1>
-    </article>
+    <h2 class="subtitulo">RECUPERAR CONTRASEÑA:</h2>
+    <section>
+    <form action="recover.html" method="get"  class="recuperar"> 
+    <label for="email" class="colorLabel">Email: </label>
+    <input type="email" name="email" value="" class="inputEmail"> 
+    <button type="button" class="buttonRecuperar"><a href="index.html">Recuperar</a></button>
+    <label for="checkbox" class="colorLabel">Quiero recuperar mi contraseña</label>
+    <input type="checkbox" name="checkbox"  class="inputCheckbox">
+    
+    </form>
+    </section>
 
     <!--Footer-->
     <footer class="footer">
