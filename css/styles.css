@@ -101,9 +101,6 @@ button{
     height: 227px;
     width: 227px;
 }
-.imagenes article{
-
-}
 .footer-logo{
     height: 50px;
     width: 100px;
@@ -138,41 +135,79 @@ button{
     height: 400px;
     width: 350px;
 }
+
 .login {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     background-color: rgba(245, 245, 220, 0.226);
     padding: 20px;
     border: solid 2px lightblue;
-    margin: 5px;
-    margin-left: 300px;
-    margin-right: 300px;
+    width: 100%;
+    align-items: 100%;
+}
+.sectionLogin{
+    max-width: 350px;
+}
+.subtituloLogin{
+    color: white;
+    text-decoration: none;
+}
+.main-login{
+    display: flex;
+    justify-content: center;
+}
+.inputContra{
+    margin-right: 86px;
+    background-color: transparent;
+    border: none;
+    color: black;
+    }
+    
+.inputEmail{
+    margin-right: 86px;
+        background-color: transparent;
+        border: none;
+        color: black;
+    }
+.linea{
+    background-color: white;
+    width: 100%;
+}
+::placeholder{
+    color: black;
 }
 .buttonIngresar{
     margin-top: 10px;
+    border: none;
 }
-.colorLabel{
+.termsLabel{
     color: white;
-    
+    margin-top: 10px;
 }
-
+.subtituloRegister{
+    color: white;
+    text-decoration: none;
+}
 .register {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     background-color: rgba(245, 245, 220, 0.226);
     padding: 20px;
     border: solid 2px lightblue;
-    margin: 5px;
-    margin-left: 300px;
-    margin-right: 300px;
+    width: 100%;
+    align-items: 100%;
 }
-
+.sectionRegister{
+ max-width: 350px;
+}
 .buttonRegistrame{
     margin-top: 10px;
+    border: none;
 }
-
+.main-register{
+    display: flex;
+    justify-content: center;
+}
 .recuperar{
     display: flex;
     flex-direction: column;
@@ -184,7 +219,9 @@ button{
     margin-left: 300px;
     margin-right: 300px;
 }
-
 .buttonRecuperar{
     margin-top: 10px;
+    border: none;
+}
+@media (max-width: 420px){
 }
