@@ -1,3 +1,6 @@
+* { 
+    box-sizing: border-box; 
+ } 
 body{
  background-color: #172637;
  min-height: 100%; 
@@ -13,7 +16,6 @@ text-decoration: none;
     display: flex;
     justify-content: center;
     padding-bottom: 30px;
-    margin-right: 60px;
 }
 .logoprincipal{
     width: 200px;
@@ -71,6 +73,8 @@ button{
     flex-direction: column;
     flex-wrap: wrap;
     margin: 5px;
+    height: 530px;
+    width: 270px;
 }
 .sectionropahombres{
     color: white;
@@ -94,8 +98,11 @@ button{
     justify-content: space-around;
 }
 .imagenes{
-    height: 200px;
-    width: 200px;
+    height: 227px;
+    width: 227px;
+}
+.imagenes article{
+
 }
 .footer-logo{
     height: 50px;
