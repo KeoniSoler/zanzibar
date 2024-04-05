@@ -15,9 +15,9 @@
 <body>
     <header>
         <nav class="nav">
-            <a href="cart.html" class="separacion-cajas-arriba">CARRITO</a>
             <a href="login.html" class="separacion-cajas-arriba">LOGIN</a>
             <a href="register.html" class="separacion-cajas-arriba">REGISTRO</a>
+            <a href="cart.html" class="separacion-cajas-arriba">CARRITO</a>
         </nav>
         <div class="divlogo">
             <a href="index.html"><img src="imagenes/zanzibarlogo.png" alt="zanzibar-logo" class="logoprincipal"></a>
@@ -30,18 +30,22 @@
             <a href="category.html">MUJER</a>
         </nav>
     </header>
-
-    <h2 class="subtitulo"><u>RECUPERAR CONTRASEÑA:</u></h2>
-    <section>
+    <main class="mainRecover">
+    <section class="sectionRecover">
+        <article class="articleRecover">
         <form action="recover.html" method="get" class="recuperar">
+            <h2 class="subtituloRecuperar"><u>RECUPERAR CONTRASEÑA:</u></h2>
             <label for="email" class="colorLabel">Email: </label>
             <input type="email" name="email" value="" class="inputEmail" placeholder="Enter your Email">
+            <hr class="linea">
             <button type="button" class="buttonRecuperar"><a href="index.html">Recuperar</a></button>
-            <label for="checkbox" class="colorLabel">Quiero recuperar mi contraseña</label>
+            <label for="checkbox" class="Recuperalabel">Quiero recuperar mi contraseña
             <input type="checkbox" name="checkbox" class="inputCheckbox">
-
+            </label>
         </form>
+    </article>
     </section>
+    </main>
 
     <!--Footer-->
     <footer class="footer">

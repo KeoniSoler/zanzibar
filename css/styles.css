@@ -143,7 +143,6 @@ button{
     padding: 20px;
     border: solid 2px lightblue;
     width: 100%;
-    align-items: 100%;
 }
 .sectionLogin{
     max-width: 350px;
@@ -168,6 +167,7 @@ button{
         background-color: transparent;
         border: none;
         color: black;
+        margin-top: 2px;
     }
 .linea{
     background-color: white;
@@ -178,7 +178,10 @@ button{
 }
 .buttonIngresar{
     margin-top: 10px;
-    border: none;
+    border: solid 1px white;
+}
+.colorLabel{
+    color: white;
 }
 .termsLabel{
     color: white;
@@ -195,33 +198,44 @@ button{
     padding: 20px;
     border: solid 2px lightblue;
     width: 100%;
-    align-items: 100%;
 }
 .sectionRegister{
  max-width: 350px;
 }
 .buttonRegistrame{
     margin-top: 10px;
-    border: none;
+    border: solid 1px white;
 }
 .main-register{
     display: flex;
     justify-content: center;
 }
+.subtituloRecuperar{
+    color: white;
+    text-decoration: none;
+}
 .recuperar{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     background-color: rgba(245, 245, 220, 0.226);
     padding: 20px;
     border: solid 2px lightblue;
-    margin: 5px;
-    margin-left: 300px;
-    margin-right: 300px;
+    width: 100%;
+}
+.sectionRecover{
+    max-width: 350px;
+}
+.mainRecover{
+    display: flex;
+    justify-content: center;
 }
 .buttonRecuperar{
     margin-top: 10px;
-    border: none;
+    border: solid 1px white;
+}
+.Recuperalabel{
+    color: white;
+    margin-top: 10px;
 }
 @media (max-width: 420px){
 }
