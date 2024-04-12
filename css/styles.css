@@ -46,10 +46,6 @@ nav{
     height: 25px;
     width: 35px;
 }
-button{
-    font-weight: bold;
-    background-color: rgba(0, 0, 255, 0);
-}
 .link-carrito{
     color: black;
     display: flex;
@@ -179,6 +175,7 @@ button{
 .buttonIngresar{
     margin-top: 10px;
     border: solid 1px white;
+    text-align: center;
 }
 .colorLabel{
     color: white;
@@ -205,6 +202,7 @@ button{
 .buttonRegistrame{
     margin-top: 10px;
     border: solid 1px white;
+    text-align: center;
 }
 .main-register{
     display: flex;
@@ -232,6 +230,7 @@ button{
 .buttonRecuperar{
     margin-top: 10px;
     border: solid 1px white;
+    text-align: center;
 }
 .Recuperalabel{
     color: white;
