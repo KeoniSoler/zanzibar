@@ -236,5 +236,10 @@ nav{
     color: white;
     margin-top: 10px;
 }
+.comprarCarrito{
+    margin-top: 10px;
+    border: solid 1px white;
+    text-align: center;
+}
 @media (max-width: 420px){
 }
