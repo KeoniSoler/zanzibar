@@ -25,7 +25,31 @@ fetch(ropaUrl)
     alert(error)
 })
 
-
+let accesUrl = 'https://fakestoreapi.com/products/category/jewelery'
+fetch(accesUrl)
+.then(function(response){
+    return response.json()
+})
+.then(function(data){
+    console.log(data)
+    let sectionaccesorios = document.querySelector('.sectionaccesorios')
+    let seccionAccesorios = []
+    for (let i = 0; i < 4; i++){
+        seccionAccesorios +=
+        `<article class="articleHome">
+            <img src="${data[i].image}" alt="Accesorios" class="imagenes">
+            <h4>${data[i].title}</h4>
+            <p>${data[i].description}</p>
+            <p>${data[i].price}</p>
+            <a href="./producto.html?id=${data[i].id}" class="link-ver-mas">Ver Más +</a>
+        </article>`
+    }
+    sectionaccesorios.innerHTML = seccionAccesorios;
+    console.log(seccionAccesorios)
+})
+.catch(function(error){
+    alert(error)
+})
 
 let electrUrl = 'https://fakestoreapi.com/products/category/electronics'
 
