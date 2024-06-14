@@ -37,15 +37,15 @@ let carrito = [];
 let recuperoStorage = localStorage.getItem("cartItems")
 
 //Pregunto si hay algo en storage, si esta vacio
-if(recuperoStorage == null){
+if(recuperoStorage != null){           //si no esta vacio parseo
     //parseo (Array)
     recStrgPrs = JSON.parse(recuperoStorage)
     carrito = recStrgPrs
+    console.log(recStrgPrs);
 }
 
 //Guardo en el array
-let linkCarroProducto = document.querySelector('linkCarroProducto')
-
+let linkCarroProducto = document.querySelector('.linkCarroProducto')
 
 linkCarroProducto.addEventListener("click", function(evento){
     evento.preventDefault();
@@ -54,4 +54,5 @@ linkCarroProducto.addEventListener("click", function(evento){
     localStorage.setItem('cartItems', cartStrg);
     console.log('carrito', carrito);
     console.log('localStorage', localStorage);
+    location.href = 'cart.html';
 })
