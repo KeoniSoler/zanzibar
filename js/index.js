@@ -17,6 +17,7 @@ fetch(ropaUrl)
             <p>${data[i].price}</p>
             <a href="./producto.html?id=${data[i].id}" class="link-ver-mas">Ver Más +</a>
         </article>`
+        //Usamos este metodo porque lo que nos trae la url es una array.
     }
     sectionropahombres.innerHTML = ropaHombres;
     console.log(ropaHombres)
