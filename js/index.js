@@ -62,7 +62,8 @@ fetch(electrUrl)
     console.log(data)
     let sectionelectronica = document.querySelector('.sectionelectronica')
     let seccionElectronica = ""
-    for (let i = 0; i < data.length; i++){
+    for (let i = 0; i < 4; i++){
+        //al for lo limitamos hasta 4 solo en el home para que queden las tres categorias iguales en el home, pero existen mas productos.
         seccionElectronica +=
         `<article class="articleHome">
             <img src="${data[i].image}" alt="Electronica" class="imagenes">

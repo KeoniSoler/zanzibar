@@ -102,6 +102,13 @@ nav{
     flex-direction: row;
     justify-content: space-around;
 }
+.sectioncategoria{
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
 .imagenes{
     height: 227px;
     width: 227px;
@@ -265,7 +272,6 @@ nav{
     flex-direction: column;
     flex-wrap: wrap;
     margin: 5px;
-    height: 533px;
     width: 270px;   
 }
 @media (max-width: 420px){
