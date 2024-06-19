@@ -1,34 +1,32 @@
 document.getElementById("login1").addEventListener("submit", function(event) {
+    event.preventDefault();
+    const email = document.getElementById("email").value; // Obtener el valor del email directamente
+    const contraseña = document.getElementById("contraseña").value; // Obtener el valor de la contraseña directamente
+    let valido = true;
     
-    const email = document.getElementById("email");
-    const contraseña = document.getElementById("contraseña");
-    let valid = true;
+    // Verificamos que el valor email y contraseña no estén vacíos
+    if (email === "") {
+        alert("Por favor complete el campo email.");
+        valido = false;
+    }
+    if (contraseña === "") {
+        alert("Por favor complete el campo contraseña.");
+        valido = false;
+    }
     
-    //Verificamos que email y contraseña no esten vacios
-    if (email.value === "") {
-        alert("Completar con su email");
-        valid = false;
+    // Contraseña tiene que tener al menos 6 caracteres
+    if (contraseña.length < 6) {
+        alert("La contraseña debe tener al menos 6 caracteres.");
+        valido = false;
     }
-    if (contraseña.value === "") {
-        alert("Completar con su contraseña");
-        valid = false;
-    }
-     //Contraseña tiene que tener al menos 8 caracteres
-     if (contraseña.value.length < 8) {
-        alert("La contraseña debe tener al menos 8 caracteres");
-        valid = false;
-    }
-
-   
-    // Guardamos el email en localStorage
-    if(valid){
-        localStorage.setItem("emailUsuario", email.value);
-
-        console.log("localstorage: ", localStorage)
-    } //Si el formulario no es valido, que no se mande
+    
+    // Guardamos el email en localStorage si el formulario es válido
+    if(valido) {
+        localStorage.setItem("emailStorage", email);
+        console.log("Email guardado en localStorage:", email);
+        mostrarBienvenidaYLogout(); //Llamar a la función para mostrar bienvenida y logout
+    } 
     else {
-        event.preventDefault();
-        alert(errorMessage);
+        console.log("Formulario no válido, no se envía.");
     }
-
-    })
+});
