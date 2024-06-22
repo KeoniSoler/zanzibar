@@ -33,15 +33,17 @@
     <main class="mainRecover">
     <section class="sectionRecover">
         <article class="articleRecover">
-        <form action="recover.html" method="get" class="recuperar">
+        <form id="recuperar" action="recover.html" method="get" class="recuperar">
             <h2 class="subtituloRecuperar"><u>RECUPERAR CONTRASEÑA:</u></h2>
             <label for="email" class="colorLabel">Email: </label>
-            <input type="email" name="email" value="" class="inputEmail" placeholder="Enter your Email">
+            <input type="email" id="email" name="email" value="" class="inputEmail" placeholder="Enter your Email">
             <hr class="linea">
             <button class="buttonRecuperar" type="submit">Recuperar</button>
             <label for="checkbox" class="Recuperalabel">Quiero recuperar mi contraseña
-            <input type="checkbox" name="checkbox" class="inputCheckbox">
+            <input type="checkbox" id="check" name="checkbox" class="inputCheckbox">
             </label>
+            <h2 id="message" class="mensajelogin"></h2> 
+            <p id="link" class="loginlink"></p>
         </form>
     </article>
     </section>
