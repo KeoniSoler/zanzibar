@@ -29,4 +29,5 @@ document.getElementById("login1").addEventListener("submit", function(event) {
     else {
         console.log("Formulario no válido, no se envía.");
     }
+    window.location.href = "index.html";
 });
