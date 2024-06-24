@@ -5,9 +5,9 @@ function mostrarBienvenidaYLogout() { // Definir la función que muestra el mens
     if (emailStorage) {
         // Mostrar bienvenida, enlace de logout y Carrito en el navegador si hay un email almacenado
         navLoggedIn.innerHTML = `<a href="" class="separacion-cajas-arriba">BIENVENIDO: ${emailStorage}</a> `;
-        navLoggedIn.innerHTML += `<a href="#" id="logout" class="separacion-cajas-arriba">LOGOUT</a>`;
+        navLoggedIn.innerHTML += `<a href="login.html" id="logout" class="separacion-cajas-arriba">LOGOUT</a>`;
         navLoggedIn.innerHTML += `<a href="cart.html" class="separacion-cajas-arriba">CARRITO</a>`;
-        
+    
         // Agregar evento para el logout
         document.getElementById("logout").addEventListener("click", function(event) {
             event.preventDefault(); // Prevenir de que pase algo por defecto
